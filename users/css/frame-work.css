@@ -1,0 +1,41 @@
+﻿/* Start global */
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background: none;
+		padding: 0px;
+		overflow-x: hidden;
+        font-family: 'Almarai', sans-serif;
+    }
+    a{
+        text-decoration: none;
+    }
+    button{
+        cursor: pointer;
+        border:0;
+        outline: 0;
+        transition: .3s all;
+        padding: 10px;
+        text-align: center;
+    }
+    button:active{
+        opacity: .5;
+    }
+    span{
+	display:block;
+	text-justify:center;
+	justify-content:center;
+	}
+    .clear{
+    clear: both;
+    }
+	a:hover{
+	text-decoration: none;
+}
+
+    .navbar{
+        border-radius: 0
+    }
